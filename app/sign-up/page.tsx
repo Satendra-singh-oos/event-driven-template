@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { useSignUp } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
@@ -92,7 +94,7 @@ const SignUp = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
-            Sign Up for Todo Master
+            Sign Up for Master
           </CardTitle>
         </CardHeader>
         <CardContent>
